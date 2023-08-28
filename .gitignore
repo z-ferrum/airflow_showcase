@@ -1,3 +1,4 @@
 logs
 logs/scheduler/latest
 airflow-webserver.pid
+config.ini
