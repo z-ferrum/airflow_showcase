@@ -17,14 +17,12 @@ def create_snowflake_connection():
         conn_type='snowflake',
         host='ZBKUXJE-HE85214.snowflakecomputing.com',
         login=snowflake_login,
-        # login='frake',
         password=snowflake_password,
-        # database='SHOWCASE',
         schema='RAW',
         extra='{"account": "ZBKUXJE-HE85214", \
               "warehouse": "COMPUTE_WH",      \
                "database": "SHOWCASE",        \
-                   "role": "Admin"}'
+                   "role": "ACCOUNTADMIN"}'
     )
 
     session = Session()
