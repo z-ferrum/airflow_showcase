@@ -1,4 +1,4 @@
-logs
-logs/scheduler/latest
+logs/*
 airflow-webserver.pid
 config.ini
+dags/__pycache__/  
