@@ -1,6 +1,6 @@
 # airflow_showcase
 
-This repo is a collection of small Airflow project. 1 dag file corresponds to 1 project, some project have a dedicated folder, named after the dag file.
+This repo is a collection of small Airflow projects. 1 dag file corresponds to 1 project, some project have a dedicated folder, named after the dag file.
 
 All projects are based on Airflow configuration with LocalExecutor, Postgres as backend and Redis as broker.
 All projects are run and tested on Windows 11 within a WSL2 Ubuntu 20.04 LTS subsystem and a python virtual environment (left outside of the repo).
